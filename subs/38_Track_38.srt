@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:04,000
+Unit 7, recording 38.
+
+2
+00:00:04,000 --> 00:00:14,000
+Now to begin with, there are two main variables called G-Under score Move and G-Under score Turn.
+
+3
+00:00:14,000 --> 00:00:22,000
+The first one, G-Under score Move, tells the robot which way to go, back, forward or stay still.
+
+4
+00:00:22,000 --> 00:00:27,000
+If G-Under score Move is zero, the robot doesn't move.
+
+5
+00:00:27,000 --> 00:00:30,000
+Okay.
+
+6
+00:00:30,000 --> 00:00:38,000
+The second variable, G-Under score Turn, tells it to turn left, turn right or not to turn.
+
+7
+00:00:38,000 --> 00:00:45,000
+I see. So if G-Under score Turn is zero, it doesn't turn.
+
+8
+00:00:45,000 --> 00:00:48,000
+That's right.
+
+9
+00:00:48,000 --> 00:00:52,000
+Now, look at the first line of the code here.
+
+10
+00:00:52,000 --> 00:00:58,000
+It sets G-Under score Move and G-Under score Turn to zero.
+
+11
+00:00:58,000 --> 00:01:03,000
+Telling it not to move and not to turn.
+
+12
+00:01:03,000 --> 00:01:07,000
+That's right.
+
+13
+00:01:07,000 --> 00:01:11,000
+I see. And the next line?
+
+14
+00:01:11,000 --> 00:01:16,000
+See this variable here? Key underscore Press.
+
+15
+00:01:16,000 --> 00:01:20,000
+This has the value of the key pressed on the phone.
+
+16
+00:01:20,000 --> 00:01:28,000
+So, if you press A on the phone, for example, key underscore Press has the value A.
+
+17
+00:01:28,000 --> 00:01:31,000
+And...
+
+18
+00:01:31,000 --> 00:01:44,000
+If I press the X key on the phone, key underscore Press takes the value X.
+
+19
+00:01:44,000 --> 00:01:47,000
+Yep. You've got it.
+
