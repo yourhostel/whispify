@@ -172,3 +172,20 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# === MEDIA FILES (ignored by default) ===
+*.mp3
+*.wav
+*.mp4
+*.m4a
+*.webm
+*.ogg
+*.flac
+*.aac
+*.wma
+*.mov
+*.avi
+*.mkv
+*.3gp
+*.ts
+*.opus
