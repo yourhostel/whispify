@@ -5,7 +5,7 @@ import os
 # Аргументи командного рядка
 parser = argparse.ArgumentParser(description="Генератор субтитрів за допомогою Whisper")
 parser.add_argument("-p", "--path", required=True, help="Вхідний аудіо- або відеофайл (mp3, wav, mp4 тощо)")
-parser.add_argument("-l", "--lang", default="ru", choices=["ru", "uk", "en"], help="Мова для розпізнавання (ru, uk, en)")
+parser.add_argument("-l", "--lang", default="en", choices=["ru", "uk", "en"], help="Мова для розпізнавання (ru, uk, en)")
 args = parser.parse_args()
 
 input_path = args.path
