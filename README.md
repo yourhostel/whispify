@@ -22,9 +22,6 @@
 - Python 3.8+
 - Встановлений `ffmpeg` (має бути в PATH)
 
-приклад виведення субтитрів з файлу 38_Track_38.mp4 -> [ 38_Track_38.srt ](https://github.com/yourhostel/whispify/blob/main/subs/38_Track_38.srt)
-
-
 ---
 
 ## 📦 Встановлення
@@ -65,6 +62,8 @@ python3 recognize.py -p path/to/video.mp4 -l uk
 ```
 
 Результат буде збережено як `audio_or_video.srt`
+
+приклад виведення субтитрів з файлу 38_Track_38.mp4 -> [ 38_Track_38.srt ](https://github.com/yourhostel/whispify/blob/main/subs/38_Track_38.srt)
 
 ---
 
