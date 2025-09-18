@@ -31,6 +31,15 @@ sudo apt install ffmpeg
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+# Використовуємо
+python recognize_text.py
+
+# Деактивуємо
+deactivate
+
+# Щоб знов не встановлювати залежності.
+source venv/bin/activate
 ```
 
 ---
